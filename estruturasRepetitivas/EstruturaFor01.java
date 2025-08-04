@@ -20,13 +20,9 @@ public class EstruturaFor01 {
 		if (x <= 1 || x <= 1000) {
 			for (int i = 1; i <= x; i++) {
 					System.out.println(i);
-					i += 2;
-					System.out.println(i);
 					i += 1;
 				}
 			}
-		
-
 		sc.close();
 
 	}
