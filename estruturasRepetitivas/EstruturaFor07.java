@@ -21,11 +21,12 @@ public class EstruturaFor07 {
 			for (int i = 1; i <= n; i++) {
 				System.out.print(i);
 				System.out.print(" " + i * i);
-				System.out.println(" " + i * i *i);
+				System.out.println(" " + i * i * i);
 			}
-		}
-
+		} else {
+			
 		sc.close();
+		}
 	}
 
 }
