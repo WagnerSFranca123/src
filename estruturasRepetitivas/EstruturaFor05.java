@@ -17,14 +17,11 @@ public class EstruturaFor05 {
 
 		int fatorial = 1;
 
-		if (n == 0) {
-			System.out.println(1);
-		} else {
-			for (int i = 1; i <= n; i++) {
-				fatorial *= i;
-			}
-			System.out.println(fatorial);
+		for (int i = 1; i <= n; i++) {
+			fatorial *= i;
 		}
+		System.out.println(fatorial);
+
 		sc.close();
 	}
 
