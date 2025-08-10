@@ -24,9 +24,7 @@ public class EstruturaFor07 {
 				System.out.println(" " + i * i * i);
 			}
 		} else {
-			
-		sc.close();
+			sc.close();
 		}
 	}
-
 }
