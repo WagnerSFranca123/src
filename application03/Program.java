@@ -43,8 +43,6 @@ public class Program {
 		System.out.println();
 		System.out.println("Update data: " + funcionario);
 		
-		
-		
 		sc.close();
 	}
 
