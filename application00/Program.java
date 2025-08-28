@@ -4,12 +4,12 @@
  * possui a maior área. 
  */
 
-package application;
+package application00;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Triangle;
+import entities00.Triangle;
 
 public class Program {
 
