@@ -29,8 +29,8 @@ public class Program {
 
 		double avg = sum / vect.length;
 
-		System.out.printf("Avarege Price = %.2f%n",avg);
-		
+		System.out.printf("Avarege Price = %.2f%n", avg);
+
 		sc.close();
 	}
 
