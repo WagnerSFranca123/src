@@ -1,6 +1,9 @@
-/*Faça um programa que leia um número inteiro positivo N(máximo=10) e 
-depois N números inteiros*e armazene-os em um vetor.Em seguida,
-mostrar na tela todos os números negativos lidos.*/
+/* *
+ * Faça um programa que leia um número inteiro positivo N (máximo=10) e 
+ * depois N números inteiros
+ * e armazene-os em um vetor.Em seguida,
+ * mostrar na tela todos os números negativos lidos.
+ * */
 
 package application10;
 
@@ -27,7 +30,7 @@ public class Program {
 		System.out.println("Numeros negativos: ");
 		for (int i = 0; i < n; i++) {
 			if(vect[i]<0) {
-				System.out.printf("%d%n", vect[i]);
+				System.out.println(vect[i]);
 			}
 		}
 		sc.close();
